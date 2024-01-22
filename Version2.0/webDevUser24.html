@@ -19,7 +19,80 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+        h3 {
+            margin: 0;
+            margin-left: 0;
+        }
+        
+        h2 {
+            margin-bottom: 0;
+        }
+        
+        #banner {
+            border: 5px outset rgb(8, 12, 212);
+            background-color: rgb(166, 43, 183);
+            text-align: center;
+        }
+        
+        div#face {
+            width: 40vw;
+            height: 40vw;
+            max-width: 400px;
+            max-height: 400px;
+            margin: 0 auto;
+            position: relative;
+            background: rgb(75, 53, 242);
+            margin-top: 2rem;
+        }
+        
+        div#face,
+        div#face * {
+            border-radius: 50%;
+        }
+        
+        .eye {
+            width: 15%;
+            height: 15%;
+            background: #923232;
+            position: absolute;
+            top: 20%;
+        }
+        
+        .left.eye {
+            left: 20%;
+        }
+        
+        .right.eye {
+            right: 20%;
+        }
+        
+        .pupil {
+            background: #dce0e4;
+            width: 50%;
+            height: 80%;
+            position: relative;
+            left: 35%;
+            transform-origin: bottom;
+        }
+        
+        #mouth {
+            position: relative;
+            width: 40%;
+            left: 20%;
+            height: 25%;
+            border: 1vw solid transparent;
+            border-radius: 80%;
+            top: 50%;
+            border-bottom-color: #cc6220;
+        }
+        
+        section {
+            border: 1px dashed blue
+        }
+        
+        figure {
+            border: 15px dashed rgb(226, 218, 61)
+        }
     </style>
 </head>
 
@@ -42,6 +115,7 @@
             <h4>hello</h4>
             <h5>hey</h5>
             <h6>say</h6>
+            <marquee>Money</marquee>
 
             <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
@@ -61,10 +135,34 @@
 
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
-        <div id="banner">
-        </div>
-        <div id="face">
+        <div id="specific"></div>
+        <h1>PUT YOUR BIG TITLE HERE</h1>
+<section>
+    <h2>Introduction or 1st Point</h2>
+    <p>Content in here that explains your 1st point</p>
+</section>
 
+<section>
+    <h2>2nd Point</h2>
+    <p>Content in here that explains your 2nd point</p>
+    <a href="http://www.lose.com"></a>www.lose.com</a>
+</section>
+
+<figure> "Hello figure this out..."</figure>
+        <div id="banner">
+            <marquee>I want</marquee>
+      
+        <div id="face">
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
