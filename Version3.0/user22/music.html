@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Version 3.0
+        Name:
+        Date Completed:
+    -->
+
+<head>
+
+    <title>Music for Web Dev User ## </title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Version 3.0 - My Favorite Music">
+
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        footer {
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        td img {
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------------------------------- Begin the nav-bar ------------->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutMe.html" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="music.html" class="nav-link">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="list.html" class="nav-link">Lists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-link disabled" tabindex="-1">Contact</a>
+                    </li>
+                    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your NavBar ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-primary" type="button">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!---------------------------------- End the nav-bar ------------------------------------->
+
+    <main class="container-fluid mt-3">
+
+        <h1 class="text-left my-3" tabindex="0">Music</h1>
+        <!-- Edit this line for the title of your page -->
+
+        <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+        <h2>My Top 5 Favorite Songs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>rank</th>
+                    <th>artist</th>
+                    <th>song</th>
+                    <th>Album Art</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>sofaygo</td>
+                <td>matrix</td>
+                <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFhYYGRgZGBoaGhwaGhwYGhoYGBgcGhgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJSs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EADwQAAIBAgQDBgUCBQMDBQAAAAECAAMRBBIhMQVBUQYiYXGBoRMykbHB0fAUI0JS4WKC8RUzkgdTVHKi/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDAAQF/8QAJhEAAgICAgEEAwADAAAAAAAAAAECEQMhEjFBEyIyUQRhcUKR4f/aAAwDAQACEQMRAD8AJgx4MYJfwuBLamexJpdnMlYzDUS5sJreGYIIL85Bwvh4TXnC4E4s2XlpFoxo4TaRK5vJGMYrgznRQfn0nM19jHNKwezWmSMWgI1uhia/KRfE6iZIxx6MganaW1adIEZSZgdUp2lZ6fWFmoyliRyEpGQrQLcaxssmgZA62l07EaG3ivOXivCA7edvORGYx285edRC2wnFQnbWwJ9BuZjCiJklClmYDlfXwHM/Sdr95mZiBc3sO8QOQ00201IgvdGIrxXnCtz3bn018dBGXhMOLRl4orRgCvFFaKYxV4Tgc7XPyj3PSaWlQA5TmAwoRAv185eoprec+XJyZSMaRLTSwj4jG5pz9jCMZlE6pvHhZujEAe06yA6yLErFRYWtGrVhJUa2kVQX05yJjpbmI3NnFuYmryGh1KpY2MkZOu3XpKYe+h0YSzhq19IWvJmh6kr4zgAblOuOX0kdNwTa+o94EYr16etpTq0rQz8w8ZTxNK0pGXgVoDOtpwSWssiInQuibQ4GKNj0S9tQL7cyfQfm0zAWKA1XxdSfINYe+aNTuoTzc5R/9QLt9wJNRcFlVTs4vc2uEAs3QX7xtIq1lCjchQQf6e8S1x/dv5ac5Lt0E6hbKxJNgtlHLvELoPItrI6CL8zfKOXU9PLr5jrOo91bM1iSpuegDXt9V0kL1L7aAaAeHj4xkntGJqtZcpVRa7EnysPa/L/SPOV1W5sNzpOqMxA6n6eMmq2AzqLXTTzZmXXxyqfWN8dAIHTKbH98xOSTEISzWBOWwNhtayj3Ege4NjvGTsw68UjihMauiknEjTaMR7tbpOB7LEzmLLeRYhrRUqo2grQB6jWdzi9p0yKumlxym7MLEpcX5iDmxAB3lyhWDC19eczXHy9NrgXXXbl6SkdaY0VboO16v9Y3G/iJWNYXDLz3/wCIP4ZxEN3b3vvyIkdamyPbXJuPMmNooo7o0IswzC15xhpmHrKGAq2Nr7y+rqSQDqeUHQslTHK+YXHKVsS+Rg/I6HzjA+RrX3krOrgqSCDNVGouI4tmEZUYXynntK+AfQo24j3TMCp5bGCtgaK9XC73lCoOUK0a17o2495RxdOxloSd0xJRKN5JTNhm9F8+Z9PvaMbrEzE6n9LDoByleyR1XI1GkfWrBgo1uBY+iqAB/wCN/WQGcmryYcWnLzhihATUzYM3hlHm2/8A+Q061XMFW1raHx1/T8xjHuqPNj9gD/4k+sZBVhLWIxDKzqNLuxPXe378z1lS86zXnLzRVGFeKK8UYxrKBuo8ZGjgNbrH4U2QeUrn5rzhS2yxPiG1EpVHOZbczrLNUkiCaWJYVwltLEmGK0Ggxi8UEAJ2jmq6XGoIgrj2Ly02PIAn2P6SHsxxVKyFQ17Dnf13m4qrBWrIa2PyOTbfT33lyrUSsmmptBHG8KyPtodun71kHDMUUcA7HSVpPaGSKa0jTqlhz3HQW6Q5XqZ06NpO8XwQIDp6yLhzX/f194ElRRPyQJjDyFilvcwswJyuvhe0B42mab5xqr6EdLc4TwLixXNoRccpFSdtMpJatE/GR3M66ldbCQcKrfES9rN+RKvC+IN8R6DjTcE8xcj9+cmVxRcn+k6CPF2rE41omxGNC2YfMCFI8+cvfHswPUCYTtiXRlqIxysw0G3gTDvCsYz0Az6mx1iKfuaYziqD+LA0cbjXzEhq1lqL3T3huOcbw7FZ01PeXSAP4tlrOUBAVrE9eoErG21RKSVOwi4y7yLNI6uMV2uAbnl49AIHxnH6VKsKVVwgtubkXHJyAcv7vadPStnLLukHRFaM4MrYhQ6kCmb5SDfMF3YHbL4y3iaaJ/Vvt4+Q/JgtXRiveKcDCdMYAjOXijTMY7eK8bFeGgHbzkV4pjGtw/yymCc5F7y3g27o8RKFQstW/Ij3nDHtnSggpsNYGdLVifDf1lzE4oXtfpG2DC43jRVbMZ3tVWJpVFA1Cnfy1mO7B13SoyAkdfObHjlN8lQWBB68hbWZrsxRGZmAtpb1/ZgyakqKwjaPQaeMSr3H35GCuJ8JdGzL3l+0zHbGu9NUdCQRsw9veX+y3bX4iBKu+xJ1v4wKaUqNxaejRcKx4IyPtaQVsKaTkrs3KXa+CSqM9Nhm30POdDkrkcEMBobWv6ynbsC/RSxAzrv4/wCIPVSQ2U5XXz5fi0uPcdz1Bkb0jfONx80nkjey0WA8PxthiVSpoCMt/HleabjGGzpcHpqJju1vDy9nTRr3vtqJouzuMd6Fn17u8lCXcWZp3Y3H4UVaFmIso3+0EdncbmVkGygjfdvKHgAUdbGxv/mYfhealiSuwLG/S0Sb4yTGXRrOG8Sy1Mm2f93+srcT+ItVnQgq2vk3Qyo2JVcSrX7pOX/drC6VbsQ1t/QjrGjN1V+TcE3socHxDURUq1cz5xlTLb+WLG7DqSSPpPNON0XZ2qOCAzGx11F9D4T2enTC8haDuP8AZ1MRT7lgRsOXoeUtJya7snLDHwZDgX/qPiKFBaIRXKLlQkWGRVsqtbkNST5R+I7YV2dalekiqR3sgZXI/uCs2oHlDH/px2dAev8AHpAqrU1UsNcxDMbHwAU+olnt3wIU7ldEcWuB3r8gT08BKYn9Pf8ADjnGnTL+BxK1ED03DqRuPyORltdZ5NwGpVwtfMCQnNeTjyns3D1FailS2UsoNvOWU7VtULxKN4iZLiKRBla8otiHS0V5yNJhMPvFGXnJjGuwbd0SLG0+8GGwkWBqnMByl2qQQROF6kdL0zP48Xe97afmWcAxK+N5VxwKNflJcNWAG8rWgvog4omZHHW+v79JluG/ysy+Jmprlip0F9unPnMbxFHSpqDYneSzWkpIti+g7xPDJXolWBuBfzMwuAwoRmW+t5rqNcslr67TK4uky1x02HnObI+VNFFpl6jxmrRPdOnrNJwvt0jWSqp3tcC49Zn6mDXLmc6Df9IFxyIVJX6/pCpSiGcYvs9cq0UrKHpt9DBVasyNc/7ud559wbj1SggIYmx1BN+fOejYLiVPEjLUBVrDpr4y8ZqSrpkVcf2h2MpB0Ol7j2gfg+LagwV7WJtbwmifBMtrZiB0gXGYQFmbUnlpyk8kWmmiiaaCGPp5QzoeXI8ucyWOpfzM4vrbWbThlAtSs25ECvQ1KkbHSLmhySY0JeDMVXa5RuRzA8/OGcHic4GveHP9Y3iHDg6ZtiAbeUz2GqOuvKc7UolLRvcFjAxKncQqh005zzuhxMMcynvjTTn4GGcL2sQVaKDVmcBh/bYEzpx5OWvIk2krPQHwgSiRexALE9Wtr+nlB2Ib+KwTMyrmsxFtsykjTobi1oK4j25wwqpRLgDN3idFuASMzbAXA9pzgdRFwFWzBku9wj5wjnV8r8xrm6g36zojFpK+7POlK3YD4Rw6hiaa2JWtZtHGhIYg5W5aDYz0DCU8iKu1hb6TK9g8OGoI7AEjMb26sTvNHicRY2EeTctBaS6JcVhw403gLEUSDDeHVt5LicIHU3+Yfu0EZ8XTFasypM5eSYhbGRXnUiZ28UbeKEwXwtT+aR12/fpL1bFgPaD8Dq+boI7EOGa/70nJx2dT2yXGrmTN42P6wRjGKnpp+IawlrMl789fH/iDOL4bYjUGMvoKdMz2H4hUV8pYZdTc3uLDmek7w/jiPUKOy2BO5HI7Shj1K1ACbajlvfSYvizFKzEaa3kJSa19Mq2qs9Zq8OR+9Rtbz3/fhA3FOGvdXyG6kE2HnzEBdnu1zU1IcZwNpruD9qBXUiyqOhb3Ey4S/oOT8GF4hj2dsmo71rbWtpBvEK5+Rbm09AxvZ9aj5w6ltdBz8CfCUcR2cwxIVg4c72bQn/ER4pWZtsx/C17rK3Mj03/xNP8AG7y1FYgWGbltvaT1ezdBF/7xFuWW+vS8rVcKoQoXUXbW418iJGUJRZSC0ajC9pHpgZtVNt+V9gYew2OpV11AUmYA4PMgQNmIvcgW01O2vQQ32cRUTJ8TPfWzWFht1uNpbG5N7M4o074VwQEF1HjKuJoXbVSPSQJjfhklXvp8u/0MtYbtAjaOtvEx3JJ0xKkugZi6III2E8u4/wATs5RPlHSe0YlMNWQ5XAvfUGeMdrOBJhnbLiA5OoUC5tf+o7Dn9IuSN7BKTrQFoY1kNwYxsW+cOCQwNwed5WAj3TKbHfp0iJVtEHJtUGOC8JfEs7m+RFzORqToSFXxNjPSuHUjT4XlRcjP3Sp0ILMTr42PsJ552Y4zUoM1JEDCqyrvYhj3QQfUfSet1AHSkpUq2hZTve2W/jt7CdmJJxT/ANk3dl/gGEFDD00HJQPoJdw2GucxjsugAlhdBEkwpEwETSJWkgk6CZ3GYJrk8rwZUpkTZFIOxfDw2o0PtOmGbwxJRM3FCf8A01+n2ilvUiLxY7h9QEGUMXicj89TJeDm1JutyfTWCsZX758PvOXl7bOxR9wW4ViwapBO4lnGg5SF1AmY4Q3869vH35Q7icSAxB85sT5K2acfcZntK7WpuBs4D6bC+5+nvMTx5CXLEaHbyBIm/rOHLoTdXGX1/WY3tDhnTTLcLcX308f3zi5YXckDlSpgLDtuPCW6NRkS6kgg38rylQvYm2g39Zaw1yHFuVyeljORqtmi7C9LtZUFPKXYMNNALMPHaxjsH2rdAboGY/1HfwgKjhrm3QwiMBfQamH1Gn2VjGT6DOG48jqTUFiL5QDYfSDsTxw3uqBQTrbcjzgdqTLoQb9IWwWGDqwtst/0iuTGXJ6OcU407gJTJVLbddLG8iwmNrWZC5BAB03t6Si/dOun/MucNUvW2tpbzgbdCxtyL9HjdVDm0JHMjXT7zScO44mITLUIR7fMdAfPoZluJU+5e3eQ2PkYMpOdr6RE7Q7bjKmFuO56AOStox2VtR9JlqlVnOZmufHeXOIOSN5QTXlrylorRzZXcgpwemhYlyUKqbEqCubYFrkbSsuFDVhTV812AzkZRcnpcyC17WYXHI6a35cpcw+HBokgjOHLMSbFVUaWPiTLx2qr9kWa3AcBT+NpU1qLempcLbd0F7k9LkfSb+nVNSpmK2Cd3zOguPCwnmvZBnrszVKj5wFFNr94Akh7HmCLj6T0nC1VSmLnU2uf1nXGnHkl2J52HqbbSwog/DYtLDUR9TiaLuRIOEm9Iey9aImAcR2mooe86DzYD7mR4TtPRqvkR1Zj0N/qRoJvTka0aRTOOsZROgkl5N6CRZYo60UNmMbgnyrYbWMBYmqVc+Le37MMYWqAig7jT8XmcxtW1a24v99YJfFUda7DeCqKHy87feTceGVA4Oot6wWlT+cCNio/QwlxV7oQdRlvHg7i0CS9wDovs1763Ek44twG3uLn1lfCJ3AOn1sdpcdM9Jl6fYy+P40Qn3ZmaGEVHvl0b2MhqEU/iDYkj10v+YZw9K6WO4g3iSX/ANw9xI/kQqCaNilTA1KuM2n76TUdnKi99yAbAf5mWw2GzqRsRv1PSTYbF5FYZiG/e85ISUZKTVnXinxdsIdp8UpKlbA39beMdwOrmp1Dzt7DUn3mYr1SzXJvNJwID4QuL3zEfUj8QTe2/sMMnPK2CuI1gcoHLN94Q4HiUzrc6m1/zBeJF0zaaG1pHw24cERa0TU2siZqu2eAyFaiPmRwLjax/PKZzDm8JcfxZyZPzAVKpaF0+hszip6JeIb2Epo1tY+s949KBIzC2W/9wH5lIJnLJ27H0FZjol7amw1+ssLRSo6U8hpuzWuSWBvt3baTUcG4PTdjVSqi1BYtTJ0GYeA2vAVTAOcRZ6ifELrdl+VAdCfpOn03GNveyV2zXdmaiXTDtSysqlVbS7BCczAjYEqpma41xOvTrFEqtbxC+Om01vZnCFajMwIKI+Ut8xUXCsSOtr6afc4TtFVDYh7crD8/mWytxgqf0BLZLR4pjHYKtZ/Sw+wlvE/FOj16jebaQ12HwAak9RhcnQX6DT73lfH4I5zbrHx47jbbb/pm9gFOHZ2CjMxJsATfUz13spwCnhqQAUZzqzcyYD7K8BCH4jjXl4TaI4tFmlHS7CtlxWj0aVUa8mDTnaGJ7xSHPFFox51jbCmDqWAvf8QHWrBqikc9fWHMS9k12K6j03mbwy5nAO63A8r3166RZR4zSR1N3EK4Zz8RRvf2mhr1AAF9Cel/xM2ikFW/t19YVFQsuc/1afpGhqTiF7imU2wpD73vobeMVHusQSbXynyMROgIJHI+esizHr5zpjojLYnp5HK8jqIO4lTIBIFwDe3h4QvXXMgPNfx/iNakHXXYyso84uJDlxlZj1ID929mlHiNAq3nNdiMBZSANd/pAvEMPcX9J5uTBKDOmM1KLM4qzV8IIFNPAH3J/WZqpThDA40quXpJSVoOGSi9lHGLldl5XMI8Mw12uP7QffWDcU2ZyesM8GxC0wFcEBmBzW0Omgv6H3m4toMHHnsH8bvnN+WkG5ppu0GCZ0FYDQsQ1uRBNvbLMwwhitCZU1IRM03BuHoq03dHdTdmCWsuXYsTBfCuHNWVlQXc2t9dh5/ia/AYrEYNchwwdMv8wsbAA9L2/YnVgh/k0QkzPcaqJRcCg4LHvOwN2HNUPLntblGYFXqOWtZ2YMzAWsAO6FttH8Vr0azJ8GkqF9WsxYg3tl12EP4DCrSS55C5PUy8Ic5P6/XQLpBWlj/g02DtmcplOwOXU2FvNvrPN8bUz1HYf1Npz8Je41jy7HqftK/BcPnqoPG/0k8slOShH7MlW2eocDpCjhlXwkeBw3xHLHa8dxJ8iKo6CT4UZKd+c7kqWiYYXEqCFXlLaNeZjhrkuTfnNJhjoZGcaHiy6KgURn8QDA3EcVroYzC4q/OIsWrDyDvxp2C/4oTs3A1mGxOKYjz09IJwTFXYnUn7bafWXqlQCwMiJXSw8yf0nJKNvkdd+AthiMtjHU3OVlHLUDwlHh1XMCp3BP05S7TJU35/cSvHk1JCqVLiztNwdDz+84EAfL1js4O4tOFAzX00AnTWkSvZYptZHUDmNZXoHcchJs+hHLeRK2kpFbIzaa0SEyviMKj/ADKPsY8vOZozSfZNNgXEdngSWQk+BmbxVAoTynpOG0F5le0roQQwF73BG/rOTPgjx5R0WhN9My5W8O8LrUGo5KyMSrEqyNlJBUnKddrgf4554PaSpWnCm4stpmu4HxYOppsoCgW/1MOQbl7QV2n4MqAVKfyk2YdD1HhB9HFZfl0lrF8TL08hicnZ0coyhT7KnBa5UlC7IrkAspylbmwOY7TR8aw2IRWpIjVaZUDOz58unM7A7+0x9GrluCMyncbXF+vLzhRcc4vSRWRHVRkJJPgd9N514prjT/6cUlstdm8BmbNbb7whx7HhVyA6D3Mc1dcPSCAi9u8fHpMri8SajeEvKSxY+K7AlbsiuWNzNP2Qwl6oJGggbBYQnUzadmqOUxfx8TvkzSl4CPEXzVFWT45iqWkDa1/ISvxXFd4KJ2omXOFnaN7TcXeklkNozANa0A9scaLZRvFyaTkGIaweMapSV232MmSvl15QB2dxhRcpF1YC/wBIVSjc2B3OgjQdxsD0FP4gdYpB/BL/AO57f5im0YE4igG1EgpoAdvOTO+gjbznUFZdzHZLOGHqeotJvi66RJqp8NvO8jQxccabQ0pWkxzMSb23jh1nGOnrOAy0V4Iyb7JUNjGm40nAZJUGx6/eN0xXtEd45BG3nGawvCIdxOMyi0yPHa+ZrcpexlfM/gIJ4mmt/Cc2eTcWkWiqBDHWOUxkcs88ckVone8eV03kIEFDMs4bBuzAIpLZgL8gTtc7Db2hKncMzu+dk0zXuDbkD0EcMSpwzhTZmqLbkTYWP394LxL7Iuw9zOlVBJ9+SfZ3F4pqjW5S5gcGL6xmAwv9R9JfQdJTHByfKQG/CCFJANBD3BUtrBGAwxtmM0XDQLTuXRMFcTx3w6rG24gujijUe8KceogtrKGFphdoFyv9G0EVrWEy3aX51PIiaGs1hM5x/VUbzHv/AJifkfBhj2XsEdvIQ2MUEXNzIso8Ovr9oB4W4IF9ra+Q3hNDnbMdl2H76RsbuOjPsd8Wr1nZPeKPQCEnWPBkd5zNIodssI248IkbY9d5Cpjlgr3Bv2llXEaGkd45TKJbEb0OJnQ8ZFaEA/NIsTjKYBV3Cne3OPLhd9zsIM4rXpG6gAtz84JOkZIHBwXJG3KVcY+ssUlgvGPcnznHklUSqIWZf7R7/rF3f7R9T+sYJ205bGHM45Ae5+8gdiZ1jGqIGzFiicozeg8+Zk+Ew1zcyXDYQta+wA+p1P3l9EA0E6ceJvbFbEdBaWcLTuQJWQXMMcPpW1M64K2IwiqhVtLOAqSi7mdwlSxnQKS8ZXW/hBFJtYe4mt0BgC9jE8mJnewgDijXQjobwxWfSAsad5DPL20PFEvB6nd/fL/P2hlHuQo25zLYCoQxHWavC5KSZm1Yxfx53Gvo0kXtIoK/6h4iKdHqIWmXsPTDtY5rAM9lF2Y00NQIBzzFAtv9UM4fsqgOrOVR8t2JIcCo9O5sLnu4UMbf/Ia24MzVamGFj1B5bqQw3FtwJC+Ezbu24Py0xcqQReyeA+gnDmhOUk4jxaRo37NBKbPmqdwIe+d7plsRYX+S58XJg3NKK4c3uWY63tlpgbWHyoCB5GW1lMMJRVS+wN70Sho8NIlMcJ0iEoaODyKchMUuI4ggMRvsPtA7Uwlhux1Yne8KYlDex63g3FHvTnyfY8RPUyiCqzXMIOQQb8oOM5crHQhOOYrxrGRCMM6gjTJsNTJYAdZkrZg6xIjqQ0udz9pHYsecn20noxEZJh6esL0VsJSwlKW6zW0nRFUibOO85RfWV3bSNpvrDZjQ1CTTPlM400XD3zoRzttM84Ocg9YsuzIhaBce2sO4iw5zNY+pdiBOX8l1EpErpUKsCOsLVazOQCYFXcQ/wnh+dgc2k58HKWkGWtlz+GEUNf8ATU6xTv8ASE5FGNiiioA6OEUUYxIJ0TsUIDojhvFFCYhx39XlM9iPm9IopHL0PEr1PlMptFFOLJ2OjkY0UUmwjVhHhf5nYo+L5ID6DVGcHznznIp6K8CBPBRYneKKW8CFdtpEu8UUUwc4H88GcV/7piimkZAbE7wPU+YzsU4c5WJA0PcC3iiifjfM0ujRxRRT0yJ//9k="></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>lone</td>
+                <td>tokyoto</td>
+                <td><img src="images/lone.jpg" alt="Picture from the internet of lone"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ken carson</td>
+                <td>Overtime</td>
+                <td>
+                    <img src="images/kencarson.jpeg" alt="picture of ken carson (tough)"> </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Modest Mouse</td>
+                <td>One Chance</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>New Radicals</td>
+                <td>Someday We'll Know</td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+
+
+    <!---------------------------------- Begin the footer ------------->
+    <footer>
+        <div>
+            Music can be found here <a href=" https://music.amazon.com "> Amazon Music</a>
+        </div>
+    </footer>
+    <!---------------------------------- End the footer ------------->
+</body>
+
+</html>
