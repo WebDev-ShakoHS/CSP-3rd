@@ -19,7 +19,67 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+        #banner {
+            border: 5px outset rgb(255, 179, 247);
+            background-color: rgb(180, 180, 180);
+            text-align: center;
+        }
+        
+        div#face {
+            width: 40vw;
+            height: 40vw;
+            max-width: 400px;
+            max-height: 400px;
+            margin: 0 auto;
+            position: relative;
+            background: rgb(170, 83, 21);
+            margin-top: 2rem;
+        }
+        
+        div#face,
+        div#face * {
+            border-radius: 50%;
+        }
+        
+        .eye {
+            width: 25%;
+            height: 25%;
+            background: #fff;
+            position: absolute;
+            top: 20%;
+        }
+        
+        .left.eye {
+            left: 20%;
+        }
+        
+        .right.eye {
+            right: 20%;
+        }
+        
+        .pupil {
+            background: #522f00;
+            width: 50%;
+            height: 50%;
+            position: relative;
+            left: 25%;
+            transform-origin: bottom;
+        }
+        
+        #mouth {
+            position: relative;
+            width: 60%;
+            left: 20%;
+            height: 25%;
+            border: 1vw solid transparent;
+            border-radius: 50%;
+            top: 50%;
+            border-bottom-color: #670000;
+        }
+        
+        section {
+            border: 1px dashed rgb(255, 179, 247);
+        }
     </style>
 </head>
 
@@ -29,8 +89,7 @@
         <!-- Your 1st Heading-->
         <h1>Abishek</h1>
         <div id="tags">
-            <p>
-                Abishek
+            <p>Abishek
             </p>
 
             <h2>Abishek</h2>
@@ -54,14 +113,38 @@
             <small>Abishek</small>
             <progress value="69" max="420"> </progress >
             <hr>
-            <abbr title="Abishek Rao" > AR </abbr> 
+            <abbr title="Abishek" > ABISHEK </abbr> 
 
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
+        <div id="specific">
+
+            <h1>ABISHEK</h1>
+            <section>
+                <h2>abishek</h2>
+                <p>Abishek</p>
+            </section>
+
+            <section>
+                <h2>ABISHEK</h2>
+                <p>aBiShEk</p>
+            </section>
+        </div>
+            
         <div id="banner">
+            <marquee> Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek, Abishek,</marquee>
         </div>
         <div id="face">
-
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
