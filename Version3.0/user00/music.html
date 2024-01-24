@@ -37,6 +37,11 @@
             font-size: 12px;
             text-align: center;
         }
+        
+        #songs tr td img {
+            width: 200px;
+            height: 150px;
+        }
     </style>
 </head>
 
@@ -84,7 +89,7 @@
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
         <h2>My Top 5 Favorite Songs</h2>
-        <table>
+        <table id="songs">
             <thead>
                 <tr>
                     <th>Rank</th>
@@ -96,14 +101,15 @@
             <tr>
                 <td>1</td>
                 <td>Rush</td>
-                <td>Fly By Night</td>
-                <td></td>
+                <td style="color:#00FF00; background-color:sienna;">Fly By Night</td>
+                <td><img src="https://i5.walmartimages.com/seo/Rush-Fly-by-Night-Embroidered-Patch-Licensed-Control-Industry-Merchandise_b7f9a1cd-9cfa-4621-885e-61cca6cee1a6.28f3a0dfc4339f85199af530a2014931.jpeg"></td>
+
             </tr>
             <tr>
                 <td>2</td>
                 <td>BNL</td>
                 <td>One Week</td>
-                <td></td>
+                <td><img src="images/BNL-oneWeek.jpg" alt="Picture from the music video 'One Week' by the Barenaked Ladies"></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -117,7 +123,7 @@
                 <td>One Chance</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr style="background-color: coral; height:15vh;">
                 <td>5</td>
                 <td>New Radicals</td>
                 <td>Someday We'll Know</td>

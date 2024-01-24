@@ -19,7 +19,71 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+        h3 {
+            margin: 0
+        }
+        
+        h2 {
+            margin-bottom: 0;
+        }
+        
+        #banner {
+            border: 5px outset red;
+            background-color: lightblue;
+            text-align: center;
+        }
+        
+        div#face {
+            width: 40vw;
+            height: 40vw;
+            max-width: 400px;
+            max-height: 400px;
+            margin: 0 auto;
+            position: relative;
+            background: rgb(0, 255, 225);
+            margin-top: 2rem;
+        }
+        
+        div#face,
+        div#face * {
+            border-radius: 50%;
+        }
+        
+        .eye {
+            width: 25%;
+            height: 25%;
+            background: #ff1a1a;
+            position: absolute;
+            top: 20%;
+        }
+        
+        .left.eye {
+            left: 10%;
+        }
+        
+        .right.eye {
+            right: 10%;
+        }
+        
+        .pupil {
+            background: #93ffb2;
+            width: 50%;
+            height: 50%;
+            position: relative;
+            left: 25%;
+            transform-origin: bottom;
+        }
+        
+        #mouth {
+            position: relative;
+            width: 60%;
+            left: 20%;
+            height: 25%;
+            border: 1vw solid transparent;
+            border-radius: 70%;
+            top: 50%;
+            border-bottom-color: #f82eae;
+        }
     </style>
 </head>
 
@@ -30,25 +94,62 @@
         <h1>About Me</h1>
         <div id="tags">
             <p>
-                This is my first webpage! I was able to code all the HTML and CSS in order to make it.
-                Watch out world of web design here I come!
+                This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
             </p>
 
             <h2>Heading Examples</h2>
 
             <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+            <h1>blue lock</h1>
+            <h2>jjk</h2>
+            <h3>black clover</h3>
+            <h4>cote</h4>
+            <h5>mha</h5>
+            <h6>boruto</h6>
             <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
             <h2>Examples of "Other" HTML elements</h2>
 
             <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
-            <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
+            Ryan's field goal percentage in intramural basketball <progress value="4" max="100"></progress>
+            <p><del> Ryan's obsessed with AP Bio</del>
+                <p><small>not really</small>
+                    <p><small>sike</small>
+                        <p><ins>ryan's slow</ins>
+                            <p><ins> Lebron is my glorious king</ins>
+                                <p><abbr title="Big Baller Brand"> BBB </abbr>
+                                    <p><sub>16*29 next week</sub>
+                                        <p><sub>blue lock is the best new gen</sub>
+                                            <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
+        <div id="specific"></div>
+        <h1>PUT YOUR BIG TITLE HERE</h1>
+        <section>
+            <h2>Introduction or 1st Point</h2>
+            <p>Content in here that explains your 1st point</p>
+        </section>
+
+        <section>
+            <h2>2nd Point</h2>
+            <p>Content in here that explains your 2nd point</p>
+        </section>
+
         <div id="banner">
+            <marquee> Hello
+            </marquee>
+
         </div>
         <div id="face">
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+            </div>
+            <div class="right eye">
+                <div class="pupil">
+                </div>
+            </div>
+            <div id="mouth">
+            </div>
 
         </div>
     </main>
