@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Version 2.0
-        Name:
-        Date Completed:
+        Name: Matthew Lim
+        Date Completed: 1/18/24
     -->
 
 <head>
 
-    <title>User ## Version 2.0 </title>
+    <title>User #16 Version 2.0 </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -19,7 +19,79 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+        h3 {
+            margin: 0;
+        }
+        
+        h2 {
+            margin-bottom: 0;
+        }
+        
+        #banner {
+            border: 5px outset rgb(220, 42, 14);
+            background-color: rgb(16, 241, 46);
+            text-align: center;
+        }
+        
+        div#face {
+            width: 80vw;
+            height: 50vw;
+            max-width: 600px;
+            max-height: 600px;
+            margin: 0 auto;
+            position: relative;
+            background: rgb(228, 244, 5);
+            margin-top: 2rem;
+        }
+        
+        div#face,
+        div#face * {
+            border-radius: 50%;
+        }
+        
+        .eye {
+            width: 100%;
+            height: 25%;
+            background: #040404;
+            position: absolute;
+            top: 20%;
+        }
+        
+        .left.eye {
+            left: 50%;
+        }
+        
+        .right.eye {
+            right: 50%;
+        }
+        
+        .pupil {
+            background: #ed0404;
+            width: 50%;
+            height: 50%;
+            position: relative;
+            left: 15%;
+            transform-origin: bottom;
+        }
+        
+        #mouth {
+            position: relative;
+            width: 10%;
+            left: 45%;
+            height: 25%;
+            border: 1vw solid transparent;
+            border-radius: 90%;
+            top: 30%;
+            border-bottom-color: #eb1111;
+        }
+        
+        section {
+            border: 2px dashed rgb(170, 46, 16)
+        }
+        
+        figure {
+            border: 10px dashed blue
+        }
     </style>
 </head>
 
@@ -30,26 +102,62 @@
         <h1>About Me</h1>
         <div id="tags">
             <p>
-                This is my first webpage! I was able to code all the HTML and CSS in order to make it.
-                Watch out world of web design here I come!
+                This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
             </p>
 
             <h2>Heading Examples</h2>
 
             <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+            <h1>This is a Malware attack!</h1>
+            <h2>You are under attack!</h2>
+            <h3>Better PAY the Ransom</h3>
+            <h4>It will cost 5 million dollars</h4>
+            <h5>You have 24 hours to PAY</h5>
+            <h6>Or else I will come to your house!</h6>
             <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
             <h2>Examples of "Other" HTML elements</h2>
 
             <!-- Put your 8 examples of other elements ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
-
+            <hr>
+            <del>WHY DID YOU NOT PAY</del>
+            <ins>DON'T MAKE ME COME</ins>
+            <p><sub>I FOUND YOU</sub> <sup>TIME TO PAY UP</sup> <small>I see you</small></p>
+            THIS IS HOW CLOSE I AM <progress value="99" max="100"> </progress >
+            <hr>
+            <abbr title="RANSOM TIME"> I WILL GET YOUR MONEY NOW </abbr> THIS IS THE END OF YOU!!!
+            
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
+        <div id="specific"></div>
+        <h1>PUT YOUR BIG TITLE HERE</h1>
+        <section>
+            <h2>Introduction or 1st Point</h2>
+            <p>Content in here that explains your 1st point</p>
+        </section>
+
+        <section>
+            <h2>2nd Point</h2>
+            <p>Content in here that explains your 2nd point</p>
+            <a href="http://www.money.com">www.money.com</a>
+        </section>
+        
+        <figure>"Figure it out..."</figure>
+
         <div id="banner">
+            <marquee>Thanks for the money</marquee>
         </div>
         <div id="face">
-
+            <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
         </div>
     </main>
 
