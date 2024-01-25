@@ -5,7 +5,12 @@ table {
 	margin-right: auto;
 	text-align: left;
 	border-collapse: collapse;
-	cellspacing: 0px;
+	border-spacing: 0px;
+}
+
+body {
+	color: white;
+	background: black;
 }
 
 tr {
